@@ -321,4 +321,16 @@ input[type=submit]
     {
         max-width: 100%;
     }
+
+    .albumtitlebox, .albumcontent, .crossfade
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .songlist
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
