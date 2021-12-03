@@ -108,6 +108,14 @@ h2
     display: flex;
 }
 
+#main
+{
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+}
+
 #leftside
 {
     padding-right: 60px;
