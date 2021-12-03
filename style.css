@@ -9,6 +9,11 @@
     padding: 0;
 }
 
+#latest
+{
+    background-color: #C2C2C2 !important;
+}
+
 body
 {
     background-color: lightgrey;
@@ -18,6 +23,11 @@ body
 {
     background-color: rgb(8, 0, 53);
     width: 100%;
+}
+
+.japanesetext
+{
+    font-family: 'Kosugi Maru', sans-serif !important;
 }
 
 h1, h2, h3, label
@@ -44,19 +54,20 @@ nav
 {
     color: lightblue;
     font-family: 'Cabin', sans-serif;
+    font-size: 24px;
 }
 
 nav a
 {
     color: white;
     font-family: 'Cabin', sans-serif;
+    font-size: 24px;
 }
 
 a:link, a:visited, a:link:active, a:visited:active
 {
     cursor: pointer;
     text-decoration: none;
-    font-size: 24px;
 }
 
 header img
@@ -71,11 +82,12 @@ header img
 
 footer
 {
+    display: flex;
     margin: auto;
-    justify-content: right;
+    justify-content: flex-end;
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 80%;
+    padding-right: 5%;
 }
 
 footer a
@@ -83,8 +95,60 @@ footer a
     padding-left: 25px;
 }
 
-#mailinglist
+h2
 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+#main
+{
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+}
+
+#main div
+{
+    padding-right: 60px;
+}
+
+aside div
+{
+    padding-bottom: 40px;
+}
+
+input
+{
+    font-size: 15px;
+}
+
+#latest
+{
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+
+#latest img
+{
+    max-height: 150px;
+    padding-right: 20px;
+}
+
+#biotext
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+input[type=submit]
+{
+    background-color: lightsteelblue;
+    border: none;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 3px 55px;
+    text-decoration: none;
+    cursor: pointer;
 }
