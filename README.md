@@ -1,6 +1,6 @@
 # IDAssignment1-2021 - Rain Drops' Website
 
-This website is a website on a music unit called Rain Drops. This is a primarly Japanese unit and has most information in Japanese rather than English. So this website is to showcase their work and information about them simply and effectively in English. This would encompass the details about the group, their members and their discography (the albums and songs they have worked on to date) and also include the lyrics of all of their songs.
+This website is a website on a music unit called Rain Drops. This is a primarly Japanese unit and has most information in Japanese rather than English. So this website is to showcase their work and information about them simply and effectively in English. This would encompass the details about the group, their members and their discography (the albums and songs they have worked on to date).
  
 ## Design Process
  
@@ -9,27 +9,23 @@ I decided that I would want to make the website very simple and clean. The websi
 - As a unfamiliar person to the unit, I would want to learn more about them, so that I know what they have been doing and can find out if I would be interested in them.
 - As a new fan of the unit, I would want to find out more about the unit, so that I can learn more about them.
 - As an older fan of the unit, I would want to quickly check information about the unit, so that I can easily reference it when I forget some details.
-- As a fan of the unit, I would want to refer to the lyrics to be able to sing along.
 
 Firstly for the home page, I decided to put their latest release at the top to be able to showcase the latest news first. The short introduction of their biography is shown below. On the side, there is a spotify player and there is a mailing list form, which I added as it could be useful to some. (Does not actually send emails)
 
 For the members page, I wanted it to show the member information clearly and concisely. While I could go for another source of information, I decided to go for the one on their coporate profile as it would be able to serve my needs better while providing accurate information.
 
-Lastly for the discography page, I wanted it to be sectioned off for each album to show more separation. Each album would be displayed in both English and Japanese. Since the songs and their titles are mainly in Japanese, I wanted to show both to be able to bridge the gap between the languages. It also includes the crossfade video as it can give a small preview to all the songs. The song titles here would link to the song lyrics.
-
-For the song lyrics, I decided to keep it simple and only include the song title and song lyrics in a simple box.
+Lastly for the discography page, I wanted it to be sectioned off for each album to show more separation. Each album would be displayed in both English and Japanese. Since the songs and their titles are mainly in Japanese, I wanted to show both to be able to bridge the gap between the languages. It also includes the crossfade video as it can give a small preview to all the songs.
 
 Adobe XD wireframe: https://xd.adobe.com/view/44461dc3-9f7f-4aba-a5e3-11b6a11cd1f2-1115/
 
 ## Features
 
-My project is split into 4 different sections; Main, Members and Discography.
+My project is split into 3 different sections; Main, Members and Discography.
  
 ### Existing Features
 - Main: Shows the latest release by Rain Drops and their biography to understand them better.
 - Members: Shows the 6 members' details and links you to some of their social media.
 - Discography: Displays the albums that have been released and the Crossfade Video paired with them.
-- Lyrics: Displays the song title and lyrics (in romaji only)
 
 ### Features Left to Implement
 - A news feed of up to date information
@@ -75,7 +71,3 @@ There is increased padding on the sides when it is in desktop mode and less in m
 - Paragraph Font: https://fonts.google.com/specimen/Nanum+Gothic?sidebar.open=true&selection.family=Nanum+Gothic
 - Title Font: https://fonts.google.com/specimen/Cabin?sidebar.open=true&selection.family=Cabin:wght@500
 - Japanese Font: https://fonts.google.com/specimen/Kosugi+Maru?subset=japanese&preview.text=&preview.text_type=custom&sidebar.open=true&selection.family=Kosugi+Maru
-
-### Acknowledgements
-
-- I have taken the lyrics from Lyrical Nonsense.
