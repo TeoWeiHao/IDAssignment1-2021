@@ -109,6 +109,13 @@ h2
     display: flex;
 }
 
+.albums
+{
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
 #leftside
 {
     padding-right: 60px;
@@ -163,6 +170,7 @@ input[type=submit]
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 40px;
+    justify-content: space-between;
 }
 
 .member1 img, .member2 img
@@ -181,7 +189,7 @@ input[type=submit]
     max-width: 100%;
 }
 
-#albums
+.space
 {
     padding-bottom: 40px;
 }
@@ -227,7 +235,7 @@ input[type=submit]
 
 .songlist
 {
-    padding-top: 25px;
+    padding-top: 10px;
     padding-bottom: 25px;
     padding-left: 60px;
     padding-right: 60px; 
@@ -278,7 +286,7 @@ input[type=submit]
         width: 90%;
     }
 
-    .main
+    .main, .albums
     {
         padding-left: 4%;
         padding-right: 4%;
@@ -320,6 +328,12 @@ input[type=submit]
     .memberinfo iframe
     {
         max-width: 100%;
+    }
+
+    .albumcontent img
+    {
+        width: 100%;
+        height: 100%;
     }
 
     .albumtitlebox, .albumcontent, .crossfade
